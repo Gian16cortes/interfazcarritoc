@@ -1,0 +1,105 @@
+h2 {
+    color: #ffffff; /* Cambia el color del título */
+  }
+  /* Estilos para el boton de búsqueda */
+.search-container {
+    position: absolute; /* coloca el boton en la esquina superior derecha */
+    top: 10px; /* Distancia desde la parte superior */
+    right: 10px; /* Distancia desde la parte derecha */
+    display: flex; /* Establece un layout flexible */
+    align-items: center; /* Centra los elementos verticalmente */
+  }
+  
+  /* Estilos para el input de búsqueda */
+  #search-input {
+    padding: 10px 30px 10px 10px; /* Agrega un espacio entre el texto y el borde del input */
+    border: none; /* Quita el borde del input */
+    border-radius: 20px; /* Agrega un borde redondeado al input */
+    font-size: 16px; /* Tamaño del texto del input */
+    background-color: #ffffff; /* Fondo blanco */
+    padding-right: 30px; 
+  }
+  
+  /* Estilos para la lupa */
+  .search-icon {
+    position: absolute; /* Posiciona la lupa dentro del input */
+    right: 10px; /* Distancia desde la parte derecha */
+    top: 50%; /* Centra la lupa verticalmente */
+    transform: translateY(-50%); /* Centra la lupa verticalmente */
+    font-size: 16px; /* Tamaño de la lupa */
+    color: #911515; /* Color de la lupa */
+  }
+  
+  .search-icon::before {
+    font-family: "Font Awesome 5 Free"; /* Utiliza la fuente de Font Awesome */
+    content: "\f002"; /* Código de la lupa */
+  }
+  /* Estilos para el botón "Ver carrito" */
+.cart-button {
+    background-color: #007bff; /* Fondo azul */
+    color: #ffffff; /* Texto blanco */
+    padding: 10px 20px; /* Agrega un espacio entre el texto y el borde del botón */
+    border: none; /* Quita el borde del botón */
+    border-radius: 20px; /* Agrega un borde redondeado al botón */
+    cursor: pointer; /* Cambia el cursor a una mano */
+  }
+  
+  .cart-button:hover {
+    background-color: #353738; /* Fondo azul oscuro al pasar el cursor */
+  }
+  
+  /* Estilos para el botón "Total" */
+  .total-button {
+    background-color: #ff9900; /* Fondo naranja */
+    color: #ffffff; /* Texto blanco */
+    padding: 10px 20px; /* Agrega un espacio entre el texto y el borde del botón */
+    border: none; /* Quita el borde del botón */
+    border-radius: 0 20px 20px 0; /* Agrega un borde redondeado solo al lado derecho */
+    cursor: pointer; /* Cambia el cursor a una mano */
+  }
+  
+  .total-button:hover {
+    background-color: #020202; /* Fondo naranja oscuro al pasar el cursor */
+  }
+  /* Estilos para el de los botones */
+.button-container {
+    position: absolute; /* Posiciona el boton en la esquina inferior derecha */
+    bottom: 10px; /* Distancia desde la parte inferior */
+    right: 10px; /* Distancia desde la parte derecha */
+    display: flex; /* Establece un layout flexible */
+    align-items: center; /* es para centrar vertical los botones:D */
+  }
+  
+  /* Estilos para el botón "Ver carrito" */
+  .cart-button {
+    background-color: #ffffff; /* Fondo azul */
+    color: #080808; /* Texto blanco */
+    padding: 8px 20px; /* Agrega un espacio entre el texto y el borde del botón */
+    border: none; /* Quita el borde del botón */
+    border-radius: 20px 0 0 20px; /* Agrega un borde redondeado solo al lado izquierdo */
+    cursor: pointer; /* Cambia el cursor a una mano */
+  }
+  
+  .cart-button:hover {
+    background-color: #303233; /* Fondo azul oscuro al pasar el cursor */
+  }
+  
+  /* Estilos para el botón "Total" */
+  .total-button {
+    background-color: #df0239; /* Fondo naranja */
+    color: #ffffff; /* Texto blanco */
+    padding: 10px 20px; /* Agrega un espacio entre el texto y el borde del botón */
+    border: none; /* Quita el borde del botón */
+    border-radius: 0 20px 20px 0; /* Agrega un borde redondeado solo al lado derecho */
+    cursor: pointer; /* Cambia el cursor a una mano */
+  }
+  
+  .total-button:hover {
+    background-color: #02b91b; /* Fondo naranja oscuro al pasar el cursor */
+  }
+  
+  /* Estilos para que los botones estén pegados */
+  .cart-button + .total-button {
+    margin-left: -10px; /* Quita el espacio entre los botones */
+  }
+  

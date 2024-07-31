@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FurnitApp</title>
+    <link rel="stylesheet" href="./estilos/estilos.css">
+</head>
+<body>
+    <style>
+        body {
+            background-color: #140018; /* Fondo morado */
+        }
+    </style>
+    <div class="container">
+        <div class="imagen-contenedor">
+            <img src="./imagenes/img11.webp" alt="Imagen izquierda" class="imagen-izquierda">
+            <img src="./imagenes/img1.png" alt="Imagen 1">
+            <div class="imagen-info">
+                <h2>Sofa cama</h2>
+                <button class="boton">Pranna color (perla, blanco nieve)</button>
+                <button class="boton">Ancho: 83cm Alto: 85cm.</button>
+            </div>
+        </div>
+        <div class="imagen-contenedor">
+            <img src="./imagenes/img11.webp" alt="Imagen izquierda 2" class="imagen-izquierda">
+            <img src="./imagenes/img2.webp" alt="Imagen 2">
+            <div class="imagen-info">
+                <h2>Sofa de cuero</h2>
+                <button class="boton">Amarillo natura, café liso habano</button>
+                <button class="boton">Ancho: 200 / 240 cm x Alto: 66 cm </button>
+            </div>
+        </div>
+        <div class="imagen-contenedor">
+            <img src="./imagenes/img11.webp" alt="Imagen izquierda 3" class="imagen-izquierda">
+            <img src="./imagenes/img3.png" alt="Imagen 3">
+            <div class="imagen-info">
+                <h2>Sala comedor 6 puestos</h2>
+                <button class="boton">Madera de raulí completamente maciza</button>
+                <button class="boton">Ancho: 150 cm x Alto: 90 cm</button>
+            </div>
+        </div>
+   
+        </div>
+        
+    </div>
+    <style>
+       .container {
+            display: flex; /* Establece un layout flexible */
+            flex-wrap: wrap; /* Permite que los elementos se ajusten en varias líneas */
+        }
+
+       .imagen-contenedor {
+            display: flex; /* Establece un layout flexible */
+            align-items: center; /* Centra los elementos verticalmente */
+            margin-bottom: 20px; /* Agrega un espacio entre las imágenes */
+        }
+
+       .imagen-izquierda {
+            width: 2%; /* Establece el ancho de la imagen izquierda al 20% del contenedor */
+            margin-right: 10px; /* Agrega un espacio entre la imagen izquierda y la imagen principal */
+        }
+
+       .imagen-contenedor img:not(.imagen-izquierda) {
+            width: 16%; /* Establece el ancho de la imagen principal al 40% del contenedor */
+            border-radius: 100px; /* Agrega un borde redondeado a la imagen principal */
+            margin-right: 20px; /* Agrega un espacio entre la imagen principal y la información */
+        }
+
+       .imagen-info {
+            width: 40%; /* Establece el ancho de la información al 40% del contenedor */
+        }
+
+       .boton {
+            background-color: #ffffff; /* Fondo verde */
+            color: #080808; /* Texto blanco */
+            padding: 10px 10px; /* Agrega un espacio entre el texto y el borde del botón */
+            border: none; /* Quita el borde del botón */
+            border-radius: 20px; /* Agrega un borde redondeado al botón */
+            cursor: pointer; /* Cambia el cursor a una mano */
+        }
+
+       .boton:hover {
+            background-color: #3e8e41; 
+        }
+    </style>
+  
+<div class="search-container">
+    <input type="search" id="search-input" placeholder="Buscar...">
+    
+    <span class="search-icon"></span>
+  </div>
+ 
+
+<div class="button-container">
+    <button class="cart-button">✅Todos</button>
+    <button class="total-button">Total:$1.200.450</button>
+  </div>
+ 
+<script src="./eso.js"></script>
+</body>
+</body>
+</html>
